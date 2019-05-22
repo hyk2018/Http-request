@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang=“zh-CN">
+<head>
+
+<style>
+.backg{
+  background-color: #e2e2e2;
+  margin: 0px;
+}
+.Header {
+  font-family:"宋体";
+  font-size: 40px;
+  color: black;
+  background-color: violet;
+  padding:20px;
+  text-align: center;
+}
+.top{
+  margin: 0px;
+  text-align:center;
+  background-color: white;
+  height:50px;
+  font size: 20px;
+  padding: 0px;
+}
+.left{
+  border:1px solid white;
+  width:65%;
+  height: 800px;
+  float: left;
+  margin: 0px 0px 0px 10px;
+  padding: 0px;
+  background-color: white;
+  border-radius: 3px;
+  font-family: "Arial";
+}
+.right{
+  width:30%;
+  height:800px;
+  float:right;
+  margin: 0px 10px 0px 0px;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 3px;
+  font-family: "Arial";
+}
+
+.box{
+  background-color: white;
+  border-radius: 3px;
+  margin: 0px;
+}
+
+.gap{
+  height: 15px;
+}
+.gap1{
+  height: 5px;
+}
+.gap2{
+  height: 10px;
+}
+.gap3{
+  width: 15px;
+}
+
+
+.searchbar{
+  width: 280px;
+  height: 28px;
+
+  font-family:"宋体";
+  font-size: 20px;
+  text-align: left;
+  border:1px solid #e2e2e2;
+  border-radius: 14px
+}
+
+.cell {
+    padding: 10px;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+    border-radius: 2px;
+}
+
+
+.zh{
+font-size:14px;
+text-transform:capitalize;
+}
+
+.first{
+  background-color: white;
+  font-size : 16px;
+  padding:10px;
+}
+.second{
+  background-color: #f9f9f9;
+  font-size:14px;
+  padding:10px;
+}
+
+Buttons
+
+a:focus{
+  font-color: white;
+  background-color: black
+}
+
+.normal.button {
+  background-color: #fff;
+  color: #333;
+  text-shadow: 0 1px 0 #fff;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 1px 0 rgba(66,66,77,.1);
+}
+.super.button {
+  background-image: url(/static/img/bg_blended_light.png);
+  padding: 4px 8px 4px 8px;
+  border: 1px solid rgba(80,80,90,.2);
+  border-bottom-color: rgba(80,80,90,.35);
+  border-radius: 3px;
+  font-size: 14px;
+  outline: 0;
+}
+
+
+
+</style>
+
+<meta charset="utf-8">
+
+  <title>XXXX有限公司</title>
+
+</head>
+<body class="backg">
+
+<div>
+
+  <div class="top">
+    <table>
+      <tr>
+        <td>
+          <div class="box">
+            <img src=1.png width =50px align="left">
+          </div>
+        </td>
+        <td width="500px">
+          <div class="box">
+            <div class ="searchbar">
+              <font color=#e2e2e9> 搜索</font>
+            </div>
+          </div>
+        </td>
+        <td width="200px" align="right">
+          <a>首页</a>
+          <a>登陆</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="gap"></div>
+
+  <div>
+    <div class="left">
+      <div class="first" style="cursor:pointer">
+        
+        <a>公司简介 |</a>
+        <a>产品介绍 |</a>
+        <a>常见问题 |</a>
+        <a>加入我们 |</a>
+        <a>公司成就 </a>
+      </div>
+      
+      <div class="second"  class="first" style="color: gray">
+        <a>产品A</a>
+        <a>产品B</a>
+        <a>产品C</a>
+        <a>产品D</a>
+      </div>
+
+      <div class="cell">
+        <table>
+          <tr>
+            <td>
+              <img src=1.png width =50px align="left">
+            </td>
+            <td>
+              <div class="box" style="color:gray">
+                关于最新项目
+              </div>
+              <div class="gap"></div>
+              <div class="box" style="color: #e2e2e2">
+                用户名 |
+                <strong>HYK</strong>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <div class="right">
+      <div class="box">
+        <div class="cell" style="font-size:16px">
+          <a><strong>公司平台</strong></a>
+          <div class="gap1"></div>
+          <div style="color:gray">XXXX公司是XXXX</div>
+        </div>
+        <div class="cell" style="text-align: center">
+          <div align="center"><a href="/signup" class="super normal button">现在注册</a>
+            <div class="gap"></div>
+            已注册用户请 &nbsp;<a href="/signin">登录</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="gap"></div>
+      <div class="box">
+        <a>广告<br>1<br>2<br>3</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
