@@ -1,3 +1,5 @@
+## This is a file that excutes CRUD (create, read, update, delete) operations in a PostgreSQL database
+
 import psycopg2
 conn=psycopg2.connect(
     database="myfirst",
