@@ -1,11 +1,12 @@
 Yankai's 1st Http request
+A basic http request sent to taobao.com
 
 var https = require("https");
 // var URL = require('url');
 //hint：看不懂的console打出来
 //cb=call back
 var options = {
-	host: "www.v2ex.com",
+	host: "www.taobao.com",
 	path: "/",
 	method: "GET",
 };
